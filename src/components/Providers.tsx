@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
 import { Toaster } from './ui/sonner';
 
-export default function providers({ children} : {children: React.ReactNode}) {
+export default function Providers({ children} : {children: React.ReactNode}) {
 
   const [queryClient] = useState(() => new QueryClient());
 
