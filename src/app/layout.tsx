@@ -1,10 +1,10 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
-import Providers from "@/components/providers";
+import Providers from "@/components/Providers";
 import NewsletterCard from "@/components/newsletter-card";
 import Footer from "@/components/footer";
-import providers from "@/components/providers";
+
 
 import { getBlogName } from "@/lib/requests";
 import Intro from "@/components/intro";
